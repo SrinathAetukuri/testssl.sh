@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.20.3
 
 RUN apk update && apk upgrade && apk add --no-cache bash procps drill git coreutils libidn curl
 
